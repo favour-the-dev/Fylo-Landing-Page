@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-size: cover;
+}
+.topnav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+.logo {
+    margin-left: 60px;
+}
+.nav {
+    margin-right: 60px;
+}
+.nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+}
+.content {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.image {
+    margin-right: 80px;
+}
+.pageimage {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 750px;
+}
+.text {
+    margin: 100px 60px;
+    width: 65%;
+}
+.pagetext {
+    font-size: 30px;
+    width: 50%;
+}
+.pagepara {
+    margin-top: 20px;
+    width: 58%;
+}
