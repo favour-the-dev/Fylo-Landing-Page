@@ -143,21 +143,70 @@ h3 {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     position: absolute;
     background-color: hsl(243, 87%, 12%);
     color: hsl(240, 75%, 98%);
     top: 1616px;
     padding: 70px;
 }
-.color {
+.botlogo {
+    width: 100%;
+    max-width: 200px;
     color: hsl(240, 75%, 98%);
 }
 .navlinks {
-    margin: 40px;
+    margin-left: 20px;
+    margin-right: 100px;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
 }
 .navlinks a {
     display: block;
     color: hsl(240, 75%, 98%);;
+}
+.left {
+    width: 90%;
+}
+.right {
+    width: 50%;
+}
+.left a {
+    text-decoration: none;
+    padding: 10px;
+}
+.right a {
+    text-decoration: none;
+    padding: 10px;
+}
+.contact {
+    width: 100%;
+    max-width: 350px;
+    margin-left: 20px;
+    margin-right: 200px;
+    height: fit-content;
+}
+.details {
+    margin-top: 10px;
+}
+.details p{
+    padding: 10px;
+}
+.icon {
+    height: fit-content;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+}
+.icons {
+    width: 100%;
+    max-width: 40px;
+    padding: 10px 0px;
+    margin-right: 20px
+}
+.att {
+    height: fit-content;
+    margin-left: 40px;
+
 }
 
