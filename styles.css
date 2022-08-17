@@ -116,11 +116,12 @@ h3 {
 .cust {
     background-color: hsl(238, 22%, 44%);
     color: hsl(240, 75%, 98%);
-    position: relative;
-    top: -49px;
+    display: flex;
+    align-items: center;
 }
 .custo {
-    width: 425px;
+    width: 100%;
+    max-width: 425px;
     padding: 15px 13px;
     border-radius: 3px;
     border: none;
@@ -140,13 +141,10 @@ h3 {
     box-shadow: 0px 1px 3px hsl(243, 87%, 12%); 
 }
 .bg {
-    margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    position: absolute;
     background-color: hsl(243, 87%, 12%);
     color: hsl(240, 75%, 98%);
-    top: 1616px;
     padding: 70px;
 }
 .botlogo {
@@ -207,6 +205,25 @@ h3 {
 .att {
     height: fit-content;
     margin-left: 40px;
-
+}
+@media screen and (max-width: 425px) and (min-width: 375px) {
+    .topnav {
+        margin-top: 20px;
+    }
+    .logo {
+        margin-left: 25px;
+    }
+    .logoo{
+        width: 100%;
+        max-width: 100px;
+    }
+    .nav {
+        margin-right: 25px;
+    }
+    .nav a {
+        font-size: 14
+        6px;
+        padding: 5px;
+    }
 }
 
