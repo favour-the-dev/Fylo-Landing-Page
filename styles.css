@@ -52,6 +52,9 @@ body {
     width: 285px;
     padding: 10px;
 }
+.email::placeholder {
+    color:  hsl(0, 0%, 75%);
+}
 .submit {
     background-color: hsl(224, 93%, 58%);
     color: white;
@@ -109,5 +112,52 @@ h3 {
 .block {
     display: block;
     padding-bottom: 13px;
+}
+.cust {
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(240, 75%, 98%);
+    position: relative;
+    top: -49px;
+}
+.custo {
+    width: 425px;
+    padding: 15px 13px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 1px 3px hsl(243, 87%, 12%);
+}
+.custo::placeholder {
+    color:  hsl(0, 0%, 75%);
+    padding: 4px;
+}
+.custom {
+    margin-top: 10px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 15px 45px; 
+    box-shadow: 0px 1px 3px hsl(243, 87%, 12%); 
+}
+.bg {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    background-color: hsl(243, 87%, 12%);
+    color: hsl(240, 75%, 98%);
+    top: 1616px;
+    padding: 70px;
+}
+.color {
+    color: hsl(240, 75%, 98%);
+}
+.navlinks {
+    margin: 40px;
+}
+.navlinks a {
+    display: block;
+    color: hsl(240, 75%, 98%);;
 }
 
