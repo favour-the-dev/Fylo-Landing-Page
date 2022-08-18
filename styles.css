@@ -22,6 +22,9 @@ body {
     text-decoration: none;
     color: hsl(243, 87%, 12%);
 }
+.nav a:hover {
+    color: hsl(224, 93%, 58%);
+}
 .content {
     margin-top: 50px;
     display: flex;
@@ -62,6 +65,10 @@ body {
     margin-left: 10px;
     padding: 12px 45px;
 }
+.submit:hover {
+    padding: 13px 46px;
+    box-shadow: 0px 2px 4px hsl(243, 87%, 12%);
+}
 .link {
     margin-top: 15px;
     color: teal;
@@ -69,6 +76,9 @@ body {
     display: flex;
     align-items: center;
     padding: 2px;
+}
+.link:hover {
+    color: hsl(170, 45%, 43%);
 }
 .arrow {
     margin-left: 4px;
@@ -140,6 +150,10 @@ h3 {
     padding: 15px 45px; 
     box-shadow: 0px 1px 3px hsl(243, 87%, 12%); 
 }
+.custom:hover {
+    padding: 16px 46px;
+    box-shadow: 0px 2px 4px hsl(243, 87%, 12%); 
+}
 .bg {
     display: flex;
     justify-content: space-between;
@@ -163,8 +177,11 @@ h3 {
     display: block;
     color: hsl(240, 75%, 98%);;
 }
+.navlinks a:hover {
+    color: hsl(224, 93%, 58%);
+}
 .left {
-    width: 90%;
+    width: 70%;
 }
 .right {
     width: 50%;
@@ -201,6 +218,9 @@ h3 {
     max-width: 40px;
     padding: 10px 0px;
     margin-right: 20px
+}
+.icons:hover {
+    color: hsl(224, 93%, 58%);
 }
 .att {
     height: fit-content;
